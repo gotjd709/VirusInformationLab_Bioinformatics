@@ -60,24 +60,28 @@ VirusLab_Bioinformatics
  ### Result
 
 **Table1. Taxon set list**
+<br/>
 ![image](https://user-images.githubusercontent.com/70703320/107933429-11ecc400-6fc2-11eb-93e3-13111143af7a.png)
 > taxon set list. Alpha, Beta coronavirus의 subgenera로 구성하되 Alpha coronavirus에서 collection date 정보가 없는 Soracovirus와 Sunacovirus는 제외하였고, spike gene을 토대로 phylogenetic tree를 그릴 시 Beta coronavirus로 분류되는 Luchacovirus, Rhinacovirus도 제외(빨간 줄 처리)하였다. (Tsoleridis et al. 2019, Woo et al. 2012)
 
 <br/>
 
 **Table2. Best Model Selection Results**
+<br/>
 ![image](https://user-images.githubusercontent.com/70703320/107933436-14e7b480-6fc2-11eb-8d67-402818f67229.png)
 > Best Model Selection Results. 가장 최근의 Best Model Selection Tool인 Nested Sampling (Russel et al. 2019)을 사용하여Marginal Likelihood Value와 S.D(standard Deviation)을 구하였다. MCMC가 500,000,000일 때 seed number 12345에서 진행한 결과이다. 
 
 <br/>
 
 **Table3. tMRCA of CoV**
+<br/>
 ![image](https://user-images.githubusercontent.com/70703320/107933945-c4248b80-6fc2-11eb-8ee3-fad7d5770c54.png)
 > tMRCA of CoV. alpha beta coronavirus의 분기시점과 SARS-CoV2, RaTG 13과의 분기시점, SARS-CoV2, pangolin virus의 분기시점을 다른 논문에서 추정한 분기점과 비교한다. Alpha CoV와 Beta CoV는 RdRp gene을 기반으로 (Woo et al. 2012) SARS-CoV2와 RaTG13, Pangolin virus는 NRR gene을 기반으로 (Boni et al. 2020) 구한 바가 있다.
 
 <br/>
 
 **Figure1. Phylogenetic tree of Alpha and Beta CoV**
+<br/>
 ![image](https://user-images.githubusercontent.com/70703320/102921416-b1fd0400-44cf-11eb-8a10-b639b7b13ee3.png)
 > Phylogenetic tree of Alpha and Beta CoV. Best Model로 선정된 Clock Model: Relaxed Clock Exponential, Prior: Coalescent Bayesian Skyline의 Phylogenetic tree이다. 이번 연구에서 tMRCA를 확인하고자 한 Alpha와 Beta의 분기시점, SARS-CoV-2와 RaTG13의 분기시점, SARS-CoV-2와 pangolin virus의 분기시점을 95%신뢰구간과 함께 표시하였다.
 
