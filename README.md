@@ -1,7 +1,7 @@
 VirusLab_Bioinformatics
 ====================================
 
-[감염병 연구실](http://www.msk.or.kr/webzine/201906/html/03.html)에서 연구할 때 사용하였던 코드들과 결과들입니다. (연구실 자료는 없으며 제가 작성한 코드만 올립니다.)
+[감염병 연구실](http://www.msk.or.kr/webzine/201906/html/03.html)에서 연구할 때 사용하였던 [R](https://www.r-project.org/) 코드와 결과들입니다. (연구실 자료는 없으며 제가 작성한 코드만 올립니다.)
 
 ---------------------------------------------------------
 
@@ -41,7 +41,7 @@ VirusLab_Bioinformatics
 
  ## 2. tMRCA of alpha and beta coronavirus using BEAST 2 package
 
-**Alpha Coronavirus**와 **Beta Coronavirus**의 대표적인 Genus에 속하는 **Species**들을 선정하여 이들의 **spikegene**을 토대로 **tMRCA**를 구하기 위해 BEAST 2 package를 사용하였습니다. 자세한 연구결과는 다음과 같습니다.
+**Alpha Coronavirus**와 **Beta Coronavirus**의 대표적인 Genus에 속하는 **Species**들을 선정하여 이들의 **spikegene**을 토대로 **tMRCA**를 구하기 위해 [BEAST 2 package](https://www.beast2.org/)를 사용하였습니다. 자세한 연구결과는 다음과 같습니다.
 
 <br/>
 
